@@ -4,3 +4,8 @@ printState
 solve A-star h1
 solve A-star h2
 solve beam 2496
+
+randomizeState 50 1
+printState
+solve A-star h2
+solve beam 1000000000

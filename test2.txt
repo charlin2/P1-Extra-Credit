@@ -1,0 +1,13 @@
+setSize 3 6
+printState
+randomizeState 25 1
+printState
+solve A-star h2
+solve beam 50000
+
+setSize 1 50
+printState
+randomizeState 25 1
+printState
+solve A-star h2
+solve beam 50000
